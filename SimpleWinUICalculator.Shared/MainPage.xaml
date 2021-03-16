@@ -25,7 +25,14 @@
         </Style>
     </Page.Resources>
 
-    <Grid>
+
+    <TwoPaneView 
+        Background="{ThemeResource PrimaryColor}"
+        MinTallModeHeight="680"
+        MinWideModeWidth="540">
+        <TwoPaneView.Pane1>
+
+            <Grid>
         <Ellipse x:Name="ellipse"
                  Fill="{ThemeResource PrimaryColor}"
                  HorizontalAlignment="Left"
@@ -187,4 +194,15 @@
                     Grid.ColumnSpan="4" />
         </Grid>
     </Grid>
+
+        </TwoPaneView.Pane1>
+        <TwoPaneView.Pane2>
+            <TextBlock 
+                x:Name="history"
+                FontSize="22"
+                HorizontalTextAlignment="Right"
+                Foreground="{ThemeResource SecondaryColor}"
+                 />
+        </TwoPaneView.Pane2>
+    </TwoPaneView>
 </Page>
