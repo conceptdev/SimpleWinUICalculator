@@ -8,13 +8,13 @@ This repo contains a dual-screen enhanced fork of the _Uno platform version_ tha
 
 **Single screen** - behaves like the source app
 
-[Surface Duo with calculator on one screen](screenshots/calculator-single-portrait.png)
+![Surface Duo with calculator on one screen](screenshots/calculator-single-portrait.png)
 
 **Spanned dual-portrait** - uses second screen as a history
 
-[Surface Duo with calculator and history spanned on both screens](screenshots/calculator-dual-portrait.png)
+![Surface Duo with calculator and history spanned on both screens](screenshots/calculator-dual-portrait.png)
 
 **Single screen landscape** - adopts the same split as the spanned version and adds the history
 
-[Surface Duo with calculator and history on one screen](screenshots/calculator-single-landscape.png)
+![Surface Duo with calculator and history on one screen](screenshots/calculator-single-landscape.png)
 
