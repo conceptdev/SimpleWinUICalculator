@@ -29,7 +29,9 @@
     <TwoPaneView 
         Background="{ThemeResource PrimaryColor}"
         MinTallModeHeight="680"
-        MinWideModeWidth="540">
+        MinWideModeWidth="540"
+        Pane1Length="*"
+        Pane2Length="*">
         <TwoPaneView.Pane1>
 
             <Grid>
